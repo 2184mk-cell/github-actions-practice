@@ -3,9 +3,11 @@ name: hello worflow
 
 # Trigger the workflow on every push
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch: 
+#on:
+ # push:
+  #  branches:
+    #  - main
 
 # Define the jobs that will run in this workflow
 jobs:

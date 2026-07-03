@@ -1,8 +1,9 @@
 name: matrix build os
 
 on:
-  push:
-    branches: [main]
+  workflow_dispatch:
+  #push:
+   # branches: [main]
 
 jobs:
   pyos-matrix:
