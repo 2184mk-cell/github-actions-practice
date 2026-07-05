@@ -1,7 +1,9 @@
 name: smart
 
 on:
- push: 
+  workflow_dispatch:
+    
+ #push: 
 
 jobs:
   lint-test:
