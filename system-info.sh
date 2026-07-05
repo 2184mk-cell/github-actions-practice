@@ -13,9 +13,9 @@ echo "Architecture    : $(uname -m)"
 echo
 
 echo "=================================="
-echoo "CPU INFORMATION"
+echo "CPU INFORMATION"
 echo "=================================="
-lscpu | grep "Model name"
+lscpuu | grep "Model name"
 echo
 
 echo "=================================="
