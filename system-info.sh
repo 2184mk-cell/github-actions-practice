@@ -15,8 +15,8 @@ echo
 echo "=================================="
 echo "CPU INFORMATION"
 echo "=================================="
-lscpuu | grep "Model name"
-df
+lscpu | grep "Model name"
+exit 1
 echo
 
 echo "=================================="
