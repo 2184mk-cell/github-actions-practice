@@ -13,8 +13,14 @@ jobs:
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     steps:
+      - name: only run on push events
+        run: echo "Only run on push events"
+        
       - name: step with continue-on-error
         run: |
           echo "This step will fail"
           exit 1
+      - name: next step after failure
+        run:
+         echo "Workflow continues even after failure"
         continue-on-error: true
