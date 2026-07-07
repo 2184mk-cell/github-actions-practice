@@ -2,6 +2,7 @@ name: Setup and Greet
 
 description: Print greeting, date and OS
 
+jobs:
 inputs:
   name:
     description: Person name
