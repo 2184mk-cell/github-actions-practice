@@ -1,9 +1,11 @@
 name: docker cicd
 
 on:
-  push:
-  pull_request:
-    types: [opened, synchronize]
+  workflow_dispatch:
+    
+  #push:
+  #pull_request:
+    #types: [opened, synchronize]
 
 jobs:
   build-and-push:
